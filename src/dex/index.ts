@@ -66,6 +66,7 @@ import { TraderJoeV2 } from './trader-joe-v2';
 import { SpiritSwapV3 } from './quickswap/spiritswap-v3';
 import { PancakeswapV3 } from './uniswap-v3/forks/pancakeswap-v3/pancakeswap-v3';
 import { TraderJoeV21 } from './trader-joe-v2.1';
+import { SushiswapV3 } from './sushiswap-v3/sushiswap-v3';
 
 const LegacyDexes = [
   CurveV2,
@@ -100,6 +101,7 @@ const Dexes = [
   UniswapV2,
   UniswapV3,
   PancakeswapV3,
+  SushiswapV3,
   BiSwap,
   MDEX,
   Dfyn,
